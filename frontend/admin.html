@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ForgeCart Admin</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="admin-page">
+      <p class="eyebrow">FORGECART / ADMINISTRATION</p>
+      <h1>Store control</h1>
+      <section id="login">
+        <p>Sign in with the administrator account configured in the backend.</p>
+        <form id="login-form" class="auth-form">
+          <input
+            id="email"
+            type="email"
+            placeholder="Admin email"
+            required
+          /><input
+            id="password"
+            type="password"
+            placeholder="Password"
+            required
+          /><button>Sign in</button>
+        </form>
+        <p id="login-message" class="error"></p>
+      </section>
+      <section id="dashboard" hidden>
+        <div class="admin-head">
+          <h2>Products and orders</h2>
+          <button id="logout">Sign out</button>
+        </div>
+        <form id="product-form" class="admin-form">
+          <input id="product-code" placeholder="Product code" required /><input
+            id="product-name"
+            placeholder="Product name"
+            required
+          /><input id="product-brand" placeholder="Brand" required /><input
+            id="product-category"
+            placeholder="Category"
+            required
+          /><input
+            id="product-price"
+            type="number"
+            step="0.01"
+            placeholder="Price"
+            required
+          /><button>Add product</button>
+        </form>
+        <div id="products"></div>
+        <h2>Orders</h2>
+        <div id="orders"></div>
+      </section>
+    </main>
+    <script src="admin.js"></script>
+  </body>
+</html>

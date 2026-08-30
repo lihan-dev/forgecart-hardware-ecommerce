@@ -1,0 +1,162 @@
+[
+  {
+    "productCode": "CPU001",
+    "name": "AMD Ryzen 5 7600X",
+    "brand": "AMD",
+    "category": "CPU",
+    "price": 229.99,
+    "description": "Fast six-core processor for gaming and everyday productivity.",
+    "specifications": {
+      "socket": "AM5",
+      "cores": 6,
+      "threads": 12,
+      "boost": "5.3 GHz"
+    }
+  },
+  {
+    "productCode": "CPU002",
+    "name": "AMD Ryzen 7 7700X",
+    "brand": "AMD",
+    "category": "CPU",
+    "price": 319.99,
+    "description": "Eight-core processor for demanding gaming and creative workloads.",
+    "specifications": {
+      "socket": "AM5",
+      "cores": 8,
+      "threads": 16,
+      "boost": "5.4 GHz"
+    }
+  },
+  {
+    "productCode": "CPU003",
+    "name": "AMD Ryzen 5 7600",
+    "brand": "AMD",
+    "category": "CPU",
+    "price": 199.99,
+    "description": "Efficient six-core AM5 processor with excellent value.",
+    "specifications": {
+      "socket": "AM5",
+      "cores": 6,
+      "threads": 12,
+      "boost": "5.1 GHz"
+    }
+  },
+  {
+    "productCode": "CPU004",
+    "name": "Intel Core i5-14600K",
+    "brand": "Intel",
+    "category": "CPU",
+    "price": 299.99,
+    "description": "Hybrid performance processor for gaming, work and creation.",
+    "specifications": {
+      "socket": "LGA1700",
+      "cores": 14,
+      "threads": 20,
+      "boost": "5.3 GHz"
+    }
+  },
+  {
+    "productCode": "GPU001",
+    "name": "NVIDIA GeForce RTX 4060",
+    "brand": "NVIDIA",
+    "category": "GPU",
+    "price": 299.99,
+    "description": "Efficient graphics card for smooth 1080p gaming with ray tracing.",
+    "specifications": {
+      "memory": "8 GB",
+      "memoryType": "GDDR6",
+      "power": "115 W"
+    }
+  },
+  {
+    "productCode": "GPU002",
+    "name": "AMD Radeon RX 7800 XT",
+    "brand": "AMD",
+    "category": "GPU",
+    "price": 499.99,
+    "description": "High-performance graphics card for detailed 1440p gaming.",
+    "specifications": {
+      "memory": "16 GB",
+      "memoryType": "GDDR6",
+      "power": "263 W"
+    }
+  },
+  {
+    "productCode": "GPU003",
+    "name": "NVIDIA GeForce RTX 4070 SUPER",
+    "brand": "NVIDIA",
+    "category": "GPU",
+    "price": 599.99,
+    "description": "Powerful 1440p graphics card with DLSS 3 and ray tracing.",
+    "specifications": {
+      "memory": "12 GB",
+      "memoryType": "GDDR6X",
+      "power": "220 W"
+    }
+  },
+  {
+    "productCode": "RAM001",
+    "name": "Corsair Vengeance 32GB DDR5",
+    "brand": "Corsair",
+    "category": "RAM",
+    "price": 104.99,
+    "description": "Low-latency dual-channel memory kit for modern systems.",
+    "specifications": {
+      "capacity": "32 GB",
+      "speed": "6000 MHz",
+      "type": "DDR5"
+    }
+  },
+  {
+    "productCode": "RAM002",
+    "name": "Kingston Fury Beast 16GB DDR5",
+    "brand": "Kingston",
+    "category": "RAM",
+    "price": 54.99,
+    "description": "Reliable DDR5 memory for responsive everyday computing.",
+    "specifications": {
+      "capacity": "16 GB",
+      "speed": "5200 MHz",
+      "type": "DDR5"
+    }
+  },
+  {
+    "productCode": "SSD001",
+    "name": "Samsung 990 Pro 1TB",
+    "brand": "Samsung",
+    "category": "Storage",
+    "price": 89.99,
+    "description": "Very fast NVMe solid state drive for games and applications.",
+    "specifications": {
+      "capacity": "1 TB",
+      "interface": "PCIe 4.0 NVMe",
+      "readSpeed": "7450 MB/s"
+    }
+  },
+  {
+    "productCode": "SSD002",
+    "name": "WD Black SN850X 2TB",
+    "brand": "Western Digital",
+    "category": "Storage",
+    "price": 149.99,
+    "description": "Large, high-speed NVMe storage built for gaming workloads.",
+    "specifications": {
+      "capacity": "2 TB",
+      "interface": "PCIe 4.0 NVMe",
+      "readSpeed": "7300 MB/s"
+    }
+  },
+  {
+    "productCode": "PSU001",
+    "name": "Corsair RM750e 750W",
+    "brand": "Corsair",
+    "category": "PSU",
+    "price": 99.99,
+    "description": "Quiet modular power supply with efficient modern power delivery.",
+    "specifications": {
+      "wattage": "750 W",
+      "efficiency": "80 Plus Gold",
+      "modular": "Fully"
+    }
+  }
+]
